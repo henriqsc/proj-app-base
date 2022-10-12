@@ -6,4 +6,4 @@ USAGE
 
 1. Git clone the repository
 2. Edit and run deploy_az.sh
-3. Run de frontend on your local machine.
+3. Run the frontend on your local machine.
