@@ -1,5 +1,5 @@
-#Kubernets provisionong script using Azure az client
-#The script requires a principal account to be created and granted Contributor role for the signature
+#Kubernetes provisioning script using Azure with az client
+#Az client requires a principal account to be created and granted Contributor role for the signature
 
 #docker build -t hscadore/projeto-backend:1.0 app-base/backend
 #docker build -t hscadore/projeto-database:1.0 app-base/database
