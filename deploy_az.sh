@@ -1,11 +1,16 @@
-#Kubernetes provisioning script using Azure with az client
+#Provisioning script using Azure AKS (Kubernetes) with az client
+#Sample PHP+SQL application from https://github.com/denilsonbonatti/k8s-projeto1-app-base 
+
+echo "Building Images..."
+docker build -t YOUR_USER_HERE/projeto-backend:1.0 app-base/backend
+docker build -t YOUR_USER_HERE/projeto-database:1.0 app-base/database
+
+echo "Pushing images..."
+
+docker push YOUR_USER_HERE/projeto-backend:1.0
+docker push YOUR_USER_HERE/projeto-database:1.0
+
 #Az client requires a principal account to be created and granted Contributor role for the signature
-
-#docker build -t hscadore/projeto-backend:1.0 app-base/backend
-#docker build -t hscadore/projeto-database:1.0 app-base/database
-#docker push hscadore/projeto-backend:1.0
-#docker push hscadore/projeto-database:1.0
-
 #The following values are provided by the principal account
 APP_CLIENT_ID=""
 APP_CLIENT_SECRET=""
