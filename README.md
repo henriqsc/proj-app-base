@@ -6,4 +6,4 @@ USAGE:
 
 1. Git clone the repository
 2. Edit and run deploy_az.sh
-3. Edit the frontend js.js file inserting the server IP and run index.html on your local machine.
+3. Edit the frontend js.js file inserting the server IP (in this case the azure load balancer) and run index.html on your local machine.
