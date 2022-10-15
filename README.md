@@ -1,5 +1,5 @@
 # Sample application deployment using Azure AKS
-#### In this repository you will find a basic script to deploy a sample application on the Azure cloud native Kubernetes service (AKS). This script uses azure cli.
+#### In this repository you will find a basic script to deploy a sample application on the Azure cloud native Kubernetes service (AKS).
 
 #### The sample application was cloned from [denilsonbonatti](https://github.com/denilsonbonatti/k8s-projeto1-app-base) and consists of a PHP backend, MYSQL database and a front-end that can be ran locally.
 
