@@ -1,9 +1,8 @@
-#Repositorio
-This is a sample application deployment in Azure Cloud using AKS. 
-The sample application was cloned from https://github.com/denilsonbonatti/k8s-projeto1-app-base and consists 
-of a PHP backend, MYSQL database and a front-end that can be ran locally.
+# Sample application deployment using Azure AKS
 
-USAGE:
+#### The sample application was cloned from [denilsonbonatti](https://github.com/denilsonbonatti/k8s-projeto1-app-base) and consists of a PHP backend, MYSQL database and a front-end that can be ran locally.
+
+#### USAGE:
 
 1. Git clone the repository
 2. Edit and run deploy_az.sh
